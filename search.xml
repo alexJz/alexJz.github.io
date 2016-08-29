@@ -36,8 +36,12 @@ var colors3=colors.slice(1,4);
 alert(colors2);  //<span class="string">'green'</span>,<span class="string">'blue'</span>,<span class="string">'yellow'</span>,<span class="string">'purple'</span>
 alert(colors3); //<span class="string">'green'</span>,<span class="string">'blue'</span>,<span class="string">'yellow'</span>
 </code></pre>
-<p>splice()方法主要用途插入项，有三种方式使用，<br><em>删除：指定2个参数，要删除第一项的位置和删除的项数，splice(0,2)会删除数组中的前两项
-</em>插入：指定三个参数，起始位置，0和要插入的项，splice(2,0,’red’,’green’)<br>*替换：指定三个参数，起始位置，要删除的项和要插入的项splice(2,1,’red’,’green’)</p>
+<p>splice()方法主要用途插入项，有三种方式使用，</p>
+<ul>
+<li>删除：指定2个参数，要删除第一项的位置和删除的项数，splice(0,2)会删除数组中的前两项</li>
+<li>插入：指定三个参数，起始位置，0和要插入的项，splice(2,0,’red’,’green’)</li>
+<li>替换：指定三个参数，起始位置，要删除的项和要插入的项splice(2,1,’red’,’green’)</li>
+</ul>
 <p>下面看代码：</p>
 <pre><code class="bash">var colors=[<span class="string">'red'</span>,<span class="string">'green'</span>,<span class="string">'blue'</span>];
 var removed=colors.splice(0,1);
